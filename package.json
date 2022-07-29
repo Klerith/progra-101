@@ -1,0 +1,19 @@
+{
+  "name": "progra-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "ts-node app.ts",
+    "dev:watch": "nodemon --watch './**/*.ts' --exec 'ts-node' app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.2",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}
